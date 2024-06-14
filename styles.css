@@ -1,0 +1,43 @@
+body{
+    background-color:bisque;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bolder;
+}
+nav{
+    background-color:aqua;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 3rem;
+}
+header > img{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display:inline-block;
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+}
+footer{
+    display: flex;
+}
+div{
+    flex: 1;
+}
